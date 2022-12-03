@@ -6,7 +6,6 @@ import "./home.scss";
 const Home = () => {
   return (
     <div className="homeConteiner">
-      <div className="productos">
       <div className='card'>
         <div className='card-Img'>
             <img src={zapa1} alt=".." />
@@ -73,7 +72,6 @@ const Home = () => {
 
     </div>
 
-      </div>
     </div>
   );
 };

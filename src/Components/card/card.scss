@@ -1,11 +1,11 @@
 .card{
-    width: min-content;
     padding: 20px;
     background: white;
     border-radius: 25px;
     box-shadow: 0 0 30px rgba(0,0,0,0.4);
     transition: .4s ease;
     margin: 0 20px;
+    display: grid;
 }
 .card:hover{
     transform: scale(1.1);
@@ -69,10 +69,4 @@
     background: linear-gradient(
         45deg, yellow, orange
     );
-}
-
-@media (max-width: 1280px){
-    .card{
-        margin: 20px;
-    }
 }
